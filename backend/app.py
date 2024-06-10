@@ -9,10 +9,10 @@ logging.basicConfig(filename='app.log', level=logging.DEBUG)
 
 def get_db_connection():
     conn = psycopg2.connect(
-        host="localhost",
-        database="mywebdb",
+        host="34.27.231.132",
+        database="postgres",
         user="postgres",
-        password="Rakesh@123"
+        password="Rakesh@12345"
     )
     return conn
 
