@@ -14,17 +14,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: my-backend
+        image: your_dockerhub_username/backend-app
         ports:
         - containerPort: 5000
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: backend-service
-spec:
-  ports:
-  - port: 5000
-    targetPort: 5000
-  selector:
-    app: backend
