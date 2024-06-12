@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: app.py:latest
+        image: backend:latest
         ports:
         - containerPort: 80
         env:
