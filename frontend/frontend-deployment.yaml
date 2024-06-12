@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/core-plate-424123-h0/frontend:latest
+        image: frontend:latest
         ports:
         - containerPort: 80
         env:
