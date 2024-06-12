@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/core-plate-424123-h0/backend:latest
+        image: app.py:latest
         ports:
         - containerPort: 80
         env:
