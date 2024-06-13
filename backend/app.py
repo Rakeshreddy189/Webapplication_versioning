@@ -11,7 +11,7 @@ backend_service_ip = os.getenv("BACKEND_SERVICE_IP")
 
 # Database connection setup
 DATABASE_URL = (
-    f"dbname='{os.getenv('DB_NAME', 'mywebappsql')}' "
+    f"dbname='{os.getenv('DB_NAME', 'webapp')}' "
     f"user='{os.getenv('DB_USER', 'Rakesh')}' "
     f"password='{os.getenv('DB_PASSWORD', 'Rakesh@123')}' "
     f"host='{os.getenv('DB_HOST', '104.197.224.124')}'"
